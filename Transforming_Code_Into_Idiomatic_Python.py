@@ -1,7 +1,11 @@
-# ============ A GUIDE TO DOs AND DON'Ts ===============
 
+# =============================================================================
+# ===== A GUIDE TO DOs AND DON'Ts =============================================
+# =============================================================================
 
-# LOOPING OVER A RANGE OF NUMBERS  
+# ===== GENERALS ==============================================================
+
+# LOOPING OVER A RANGE OF NUMBERS
 
 # Don't
 for i in [0, 1, 2, 3, 4, 5]:
@@ -105,7 +109,7 @@ def find2(seq, target):
         return -1
     return i
 
-# =========== DICTIONARIES ==================================================== 
+# ===== DICTIONARIES ==========================================================
 
 d = { 'matthew': 'blue', 'rachel': 'green', 'raymond':'red' } 
 
@@ -236,7 +240,7 @@ x, y, dx, dy =  (x + dx * t, y + dy * t,
                 influence(m, x, y, dx, dy, 'y'))
 """
 
-# ======== EFFICIENCY =========================================================
+# ===== EFFICIENCY ============================================================
 
 # CONCATENATING STRINGS
 
@@ -267,7 +271,7 @@ names_dq.popleft() # O(1)
 names_dq.appendleft('mark') # O(1)
 
 
-# ============== DECORATORS AND CONTEXT MANAGERS ==============================
+# ===== DECORATORS AND CONTEXT MANAGERS =======================================
 
 # USING DECORATOS TO FACTOR-OUT ADMINISTRATIVE LOGIC
 
@@ -375,7 +379,7 @@ with open('help.txt', 'w') as f:
     with redirect_stdout(f):
         help(pow)
 
-# ======= CONCISE EXPRESSIVE ONE-LINERS =======================================
+# ===== CONCISE EXPRESSIVE ONE-LINERS =========================================
 
 # LIST COMPREHENSIONS AND GENERATOR EXPRESSIONS
 
